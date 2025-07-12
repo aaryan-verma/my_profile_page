@@ -19,3 +19,32 @@
   margin: 0;
   letter-spacing: 0;
 }
+
+.expression-btn {
+  margin-top: 16px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.expression-btn:hover {
+  background: #444;
+}
+
+.expression-label {
+  margin-top: 18px;
+  padding: 6px 18px;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.expression-label.happy {
+  background: #e6f9ec;
+  color: #1ca94c;
+  border: 1px solid #b6eac7;
+}
